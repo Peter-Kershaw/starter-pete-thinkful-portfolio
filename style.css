@@ -20,6 +20,35 @@ h3 {
 header {
   text-align: center;
 }
+div.headerParent {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+div.headerChild {
+  align-content: center;
+}
+
+/* About */
+div.aboutParent {
+  display: flex;
+  flex-direction: row;
+}
+div.aboutChild {
+  align-content: center;
+  width: 100%;
+}
+
+/* Portfolio */
+div.portfolioParent {
+  display: flex;
+  flex-direction: row;
+}
+
+div.portfolioChild {
+  align-self: stretch;
+  margin: 5px;
+}
 
 /* Containers */
 div {
@@ -33,13 +62,18 @@ article {
 }
 
 article div {
-  text-align: center;
+  text-align: left;
   width: 100%;
 }
 
 /* Paragraphs */
 p {
   line-height: 1.5;
+}
+
+p.portfolio {
+  text-align: center;
+  font-size: 14px;
 }
 
 /* Links */

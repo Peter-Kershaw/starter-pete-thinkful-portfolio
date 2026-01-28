@@ -1,45 +1,19 @@
-# Pete's Portfolio Starter Project
+## Plan
+My plan going into this project was very simple. Firstly, I needed break down all the content into various secitions that I could group into parent containers. I applied parent divider classes to each of the following sections; Header, About, Portfolio, and Contact. I wrapped each of these parent containers with a red border so that when changes were made to the page, the effects were immediately clear. Secondly, I broke each section down further into child containers, wrapping these items in a blue border. Doing this allowed me to make small changes one at a time and see the live results of each change using 'Live Server' in Visual Code Studio. Then one section at a time, I made altercations to the parents and child class until they matched the provided template. 
 
-This repository contains a starter template for Pete's portfolio. The project helps you learn how to create a personal portfolio page using HTML and CSS, while also getting familiar with basic design principles.
+## Header
+For the header I created a set of dividers and placed them within a parent divider styled as a flexbox to line the two items horizontally. 
 
-## Project Overview
+## About & Background
+For the about section, I created a parent divider that houses the child items for the picture and for the "Hi, I'm Pete!" section. I created a third child item that contained the Background section, but left it outside of the about parent divider. I applied the flex styling to the parent divider to line the two contained child items horizontall.y
 
-This portfolio website template serves as a foundation to showcase your projects, skills, and experience as a developer. It includes pre-designed sections for an introduction, project gallery, skills, and contact information. You are encouraged to modify and extend the design to fit your personal style.
+## Portfolio
+I created a seperate class for the paragraphs in the portfolio section, I applied text-size: 14px to shrink the size of the text to the required font size. Like the two sections before, I applied a parent dividers that contained three child item; one per artwork. I used the flexbox to line them up horizontally and applied a margin to the children to better line them up and provide more space between the discriptions of the art. 
 
-## Features
+## Contact
+I applied a <div> to the contact page to center the content with the above sections. 
 
-- **Responsive Layout**: The template is designed to be mobile-friendly, ensuring that your portfolio looks great on all devices.
-- **Customizable Design**: Easily update images, colors, and content through the HTML and CSS files.
-- **Gallery Section**: Showcase your projects with space for project descriptions and links.
-- **Contact Form**: Pre-built form to collect inquiries and messages from visitors.
-
-## Installation
-
-1. **Clone the repository**:
-   ```bash
-   git clone https://github.com/Thinkful-Ed/starter-pete-thinkful-portfolio.git
-   cd starter-pete-thinkful-portfolio
-   ```
-
-2. **Open the project**:
-   You can simply open `index.html` in your browser to view the website locally.
-
-## Getting Started
-
-Once you have the repository cloned, feel free to modify the HTML and CSS to add your personal details:
-- Update the **profile picture** and **about section** in `index.html`.
-- Add your own **project details** in the gallery section.
-- Customize colors and fonts in the `style.css` file to match your preferences.
-
-## Customization
-
-This template is meant to be a starting point. Here are some suggestions for customization:
-- Replace the placeholder images in the `images/` folder with your own.
-- Modify the layout, fonts, and colors in `style.css` to make it unique.
-- Add additional sections for skills, experience, or testimonials as needed.
-
-## Technologies
-
-- **HTML**: Structure of the web pages.
-- **CSS**: Styling and layout of the portfolio.
-- **Responsive Design**: Built with mobile-first principles in mind.
+## Additional notes 
+I did not use any AI assistant with the completion of the code.
+I did not make any changes to the colors or font choices, as I thought the provided colors worked well. 
+I feel that my method to complete the assignment was well thought out and seperated the content into managable sections. My only concern is that the abundance of <div> elements I added combined with the preexisting <article>, and <section> elements may complicate the layout further down the road. 
