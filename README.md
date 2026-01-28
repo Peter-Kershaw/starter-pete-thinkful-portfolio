@@ -11,9 +11,9 @@ For the about section, I created a parent divider that houses the child items fo
 I created a seperate class for the paragraphs in the portfolio section, I applied text-size: 14px to shrink the size of the text to the required font size. Like the two sections before, I applied a parent dividers that contained three child item; one per artwork. I used the flexbox to line them up horizontally and applied a margin to the children to better line them up and provide more space between the discriptions of the art. 
 
 ## Contact
-I applied a <div> to the contact page to center the content with the above sections. 
+I applied a div to the contact page to center the content with the above sections. 
 
 ## Additional notes 
 I did not use any AI assistant with the completion of the code.
 I did not make any changes to the colors or font choices, as I thought the provided colors worked well. 
-I feel that my method to complete the assignment was well thought out and seperated the content into managable sections. My only concern is that the abundance of <div> elements I added combined with the preexisting <article>, and <section> elements may complicate the layout further down the road. 
+I feel that my method to complete the assignment was well thought out and seperated the content into managable sections. My only concern is that the abundance of div elements I added combined with the preexisting article, and section elements may complicate the layout further down the road. 
