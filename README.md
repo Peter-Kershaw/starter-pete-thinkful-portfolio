@@ -17,3 +17,7 @@ I applied a div to the contact page to center the content with the above section
 I did not use any AI assistant with the completion of the code.
 I did not make any changes to the colors or font choices, as I thought the provided colors worked well. 
 I feel that my method to complete the assignment was well thought out and seperated the content into managable sections. My only concern is that the abundance of div elements I added combined with the preexisting article, and section elements may complicate the layout further down the road. 
+
+
+## Changes 01/28/26
+I moved the horiontal break out of the About container and placed it before the Portfolio container. This change better aligned the horizontal break with the provided example. This created more consistent spacing between each section. Additional I moved the picture in the About section to a center alignment using inline styling with the !important notation to overwrite the left alginment. I sumbmitted all changes via Github commit.
